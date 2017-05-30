@@ -2,6 +2,10 @@
 
 lightweight django docker containers using alpine for main web container.
 
+### Prerequisites:
+ 1. docker.
+ 2. docker-compose.
+
 ## Installation
 
 1) Running a web container from alpine image to initialize a project.
@@ -58,3 +62,4 @@ docker-compose up -d
 ```
 
 8) Enter localhost in your browser to test the django welcome msg.
+
