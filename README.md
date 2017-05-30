@@ -2,7 +2,7 @@
 
 lightweight django docker containers using alpine for main web container.
 
-### Prerequisites:
+## Prerequisites:
  1. docker.
  2. docker-compose.
 
