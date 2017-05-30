@@ -26,7 +26,7 @@ cd /data/web
 apk add --update python3 python3-dev postgresql-client postgresql-dev build-base bash gettext vim
 ```
 
-4) After Downloading and installing sys package use pip3 to install python packages.
+4) After Downloading and installing sys packages use pip3 to install python packages.
 
 ```
 pip3 install --upgrade pip
@@ -41,7 +41,7 @@ mkdir yourProjectName/static
 exit
 ```
 
-6) In the repo dicrectory run docker-compose, docker-compose will use the .yaml file to build containers, wait and let it do the magic.
+6) In the repo dicrectory run docker-compose, it will use the .yaml file to build containers.
 
 ```
 docker-compose build
@@ -57,4 +57,4 @@ or running as background process without logs
 docker-compose up -d
 ```
 
-8) Hiding to localhost in your browser to test the django welcome msg.
+8) Enter localhost in your browser to test the django welcome msg.
