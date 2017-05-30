@@ -10,6 +10,7 @@ lightweight django docker containers using alpine for main web container.
 docker run -ti --rm -v /pathToRepo/web/:/data/web alpine:latest sh
 ```
 *pathToRepo/web is like /home/user_name/repo_name/web/ or equivalent.
+
 2) After entering the images "sh" change directory to (/data/web).
 
 ```
