@@ -1,0 +1,7 @@
+Django
+# iPython For better shell
+ipython
+redis
+django-redis
+gunicorn
+psycopg2
