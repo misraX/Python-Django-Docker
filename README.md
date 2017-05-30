@@ -11,6 +11,7 @@ docker run -ti --rm -v /pathToRepo/web/:/data/web alpine:latest sh
 ```
 
 --rm flag will remove anychanges after exiting the container <a href="https://docs.docker.com/engine/reference/commandline/run/#options">docker run</a> doc.
+
 *pathToRepo/web is like /home/user_name/repo_name/web/ or equivalent.
 
 2) After entering the web image shell (sh) change directory to (/data/web).
