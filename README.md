@@ -20,7 +20,7 @@ docker run -ti --rm -v /pathToRepo/web/:/data/web alpine:latest sh
 cd /data/web
 ```
 
-3) Start fetching and downloading system package.
+3) Start fetching and downloading system packages.
 
 ```
 apk add --update python3 python3-dev postgresql-client postgresql-dev build-base bash gettext vim
