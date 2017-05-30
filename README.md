@@ -4,14 +4,16 @@ lightweight django docker containers using alpine for main web container.
 
 ## Installation
 
-1) Running docker image to initialize a project.
+1) Running a web container from alpine image to initialize a project.
 
 ```
 docker run -ti --rm -v /pathToRepo/web/:/data/web alpine:latest sh
 ```
+
+--rm flag will remove anychanges after exiting the container <a href="https://docs.docker.com/engine/reference/commandline/run/#options">docker run</a> doc.
 *pathToRepo/web is like /home/user_name/repo_name/web/ or equivalent.
 
-2) After entering the images "sh" change directory to (/data/web).
+2) After entering the web image shell (sh) change directory to (/data/web).
 
 ```
 cd /data/web
