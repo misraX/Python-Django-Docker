@@ -18,19 +18,19 @@ docker run -ti --rm -v /pathToRepo/web/:/data/web alpine:latest sh
 
 *pathToRepo/web is like /home/user_name/repo_name/web/ or equivalent.
 
-2) After entering the web image shell (sh) change directory to (/data/web).
+2) After entering the web container shell (sh) change directory to (/data/web).
 
 ```
 cd /data/web
 ```
 
-3) Start fetching and downloading system packages.
+3) Start fetching, downloading and installing system packages.
 
 ```
 apk add --update python3 python3-dev postgresql-client postgresql-dev build-base bash gettext vim
 ```
 
-4) After Downloading and installing sys packages use pip3 to install python packages.
+4) After Downloading and installing system packages use pip3 to install python packages.
 
 ```
 pip3 install --upgrade pip
@@ -39,13 +39,13 @@ django-admin startproject yourProjectName
 mkdir yourProjectName/static
 ```
 
-5) Exit the docker image.
+5) Exit the docker container.
 
 ```
 exit
 ```
 
-6) In the repo dicrectory run docker-compose, it will use the .yaml file to build containers.
+6) In the repo dicrectory run docker-compose, it will use the .yaml file to build the containers.
 
 ```
 docker-compose build
