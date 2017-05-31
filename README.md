@@ -1,6 +1,6 @@
 # Python-Django-Docker
 
-lightweight django container using alpine as the main web container.
+lightweight django container using alpine linux as the main web container.
 
 ## Prerequisites:
  1. docker.
